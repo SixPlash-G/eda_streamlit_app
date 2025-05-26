@@ -8,7 +8,8 @@ import seaborn as sns
 st.title("Analisis Exploratorio de Datos")
 
 #leer el archivo Excel
-data=pd.read_csv(r"C:\Users\jaiso\Desktop\Proyecto Mineria\STREAMLIT\knime_result_datos_nuevos.csv", encoding='latin1')
+# data=pd.read_csv(r"C:\Users\jaiso\Desktop\Proyecto Mineria\STREAMLIT\knime_result_datos_nuevos.csv", encoding='latin1')
+data=pd.read_csv("knime_result_datos_nuevos.csv", encoding='latin1')
 st.success("Archivo cargado con exito")
 
 st.write(data.head())
